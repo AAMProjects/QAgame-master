@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mouath.qa.MainActivity">
+
+
+    <Button
+        android:id="@+id/TypeofPlay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_error_outline_black_24dp"
+        android:backgroundTint="@color/Softwhite"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <Button
+        android:id="@+id/About"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_help_outline_black_24dp"
+        android:backgroundTint="@color/SoftGrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@color/lightpurple"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        android:background="@drawable/ic_play_circle_filled_black_24dp">
+
+        <ImageButton
+            android:id="@+id/Playbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:elevation="4dp"
+            android:src="@drawable/ic_play_circle_filled_black_24dp"
+            android:tint="@android:color/white"
+            android:onClick="sendMessage"
+            android:contentDescription="@string/todo" />
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>

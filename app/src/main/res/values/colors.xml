@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="MainBackground">#303030</color>
+    <color name="SoftOrange">#FF6B6B</color>
+    <color name="Textcolor">#b7303030</color>
+    <color name="SoftGrey">#a59f9f</color>
+    <color name="Softwhite">#8affffff</color>
+    <color name="lightpurple">#ac5272</color>
+
+
+    <array name="CardColors">
+        <item name="SoftOranges">#FF6b6b</item>
+        <item name="Lime">#C5F263</item>
+        <item name="SoftPurple">#CD9FDD</item>
+        <item name="Bluesky">#4DCEC4</item>
+    </array>
+</resources>
+
+
